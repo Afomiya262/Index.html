@@ -1,0 +1,60 @@
+/* General page style */
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Heading style */
+h1 {
+  color: blue;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/* Paragraphs */
+p.lead {
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Image styling */
+.image-wrap {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-wrap img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.image-wrap figcaption {
+  color: white;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+/* Links */
+a {
+  color: #1DB954; /* Spotify green */
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1ed760; /* lighter green on hover */
+  transform: scale(1.05); /* small zoom effect */
+}
